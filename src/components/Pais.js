@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './Pais.module.css';
 
 
 const Pais = ({pais}) => {
@@ -10,7 +11,7 @@ const Pais = ({pais}) => {
         <div className="col s12 m6 l4">
             <div className="card">
                 <div className="card-image">
-                    <img src={flag} alt={name} />
+                    <img className={styles.img} src={flag} alt={name} />
                 </div>
                 <div className="card-content">
                     <h3>{name}</h3>
