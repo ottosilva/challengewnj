@@ -1,5 +1,6 @@
 import React from 'react';
 import Pais from './Pais';
+import PropTypes from 'prop-types';
 
 const ListadoPaises = ({paises}) => {
 
@@ -12,12 +13,14 @@ const ListadoPaises = ({paises}) => {
         {paises.map(pais => (
             <Pais 
                 key={pais.alpha3Code}
-                name={pais.name}
-                population={pais.population}
-                flag={pais.flag}
+                pais={pais}
             />
         ))} 
     </div>)
+}
+
+ListadoPaises.propTypes = {
+    paises: PropTypes.array.isRequired
 }
  
 export default ListadoPaises;

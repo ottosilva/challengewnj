@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Formulario.module.css';
 import useSelect from '../hooks/useSelect';
+import PropTypes from 'prop-types';
 
 const Formulario= ({guardarRegion})=> {
 
@@ -44,6 +45,10 @@ const Formulario= ({guardarRegion})=> {
             
         </div>
     )
+}
+
+Formulario.propTypes = {
+    guardarRegion: PropTypes.func.isRequired
 }
 
 export default Formulario
