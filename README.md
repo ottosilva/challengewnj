@@ -21,7 +21,7 @@ Podemos filtrar paises según la región que seleccionemos y visualizar su bande
 Toda la información es extraída de la API: https://restcountries.eu/
 
 ## Algunas capturas
-![](capturas/Captura1.jpg)
+![](capturas/Captura1.png)
 
 ![](capturas/Captura2.jpg)
 
