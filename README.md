@@ -2,20 +2,18 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-## How to start
+## Como empezar
 
-Install all the project dependencies with:
+Instala todas las depedencias del proyecto con:
 
-### `npm install
+### `npm install`
 
-In the project directory, you can run:
+En el directorio del proyecto, puedes escribir:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Abre [http://localhost:3000](http://localhost:3000) para visualizar en tu navegador.
 
 ## ¿Cómo funciona?
 En la pantalla de inicio podemos seleccionar entre 5 regiones: África, América, Asia, Europa, Oceania.
@@ -23,7 +21,9 @@ Podemos filtrar paises según la región que seleccionemos y visualizar su bande
 Toda la información es extraída de la API: https://restcountries.eu/
 
 ## Algunas capturas
-https://postimg.cc/75JcbKp5
+![](capturas/Captura1.jpg)
 
-[url=https://postimg.cc/Q9CcxyyP][img]https://i.postimg.cc/Q9CcxyyP/Captura2.jpg[/img][/url]
+![](capturas/Captura2.jpg)
+
+![](capturas/Captura3.jpg)
 
